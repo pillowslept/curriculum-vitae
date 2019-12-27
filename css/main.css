@@ -1,0 +1,311 @@
+/*******************************************
+FONTS
+*******************************************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+/*******************************************
+SETTINGS
+*******************************************/
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+/*******************************************
+BODY
+*******************************************/
+body {
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  font-size: 1em;
+  color: #A5A6A8;
+  background: #ededed;
+}
+/*******************************************
+CONTAINER
+*******************************************/
+.container {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+/*******************************************
+PHOTO (AVATAR)
+*******************************************/
+#photo-container {
+  margin-top: -50px;
+}
+
+#photo {
+  width: 142px;
+  height: 150px;
+  border-radius: 20%;
+  overflow: hidden;
+  padding: 5px;
+  background: #ededed;
+  display: inline-block;
+}
+
+#photo img {
+  width: 130px;
+  height: 140px;
+  border-radius: 20%;
+}
+
+/*******************************************
+MY INFORMATION
+*******************************************/
+
+#my-data {
+  margin-top: 2rem;
+}
+
+#my-data #name {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #F9BA0C;
+  text-transform: uppercase;
+}
+
+#my-data #profession {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+/*******************************************
+COMMON
+*******************************************/
+
+.info-badge {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #F9BA0C;
+  border-radius: 5px;
+  position: relative;
+  font-size: 1.2em;
+}
+
+.separator {
+  border: 1px solid #ededed;
+}
+
+.item {
+  display: inline-block;
+  padding: 2px;
+  font-size: 1.2em;
+  display: block;
+}
+
+.dashed {
+  border-bottom: 1px dashed;
+}
+
+.block-text {
+  display: block;
+}
+
+.section-container h2, h3, h4 {
+  color: #F9BA0C;
+}
+
+.section-container p {
+  font-size: 1.3em;
+}
+
+/*******************************************
+EDUCATION
+*******************************************/
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  margin-right: 5px;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: #F9BA0C;
+  display: inline-block;
+  position: absolute;
+  left: 28px;
+  width: 3px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #F9BA0C;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+ul.timeline .timeline-year {
+  font-size: 15px;
+  color: #A5A6A8;
+  font-weight: bold;
+}
+
+/*******************************************
+EXPERIENCES
+*******************************************/
+
+.job {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ededed;
+}
+
+.job:last-child {
+  border: 0;
+}
+
+.job .since {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #F9BA0C;
+}
+
+.job .company {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.job .place {
+  font-size: 1rem;
+}
+
+.job .profession {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.job .description {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+/*******************************************
+CONTACT
+*******************************************/
+
+.contact-item {
+  width: 100%;
+  float: left;
+}
+
+.contact-item .icon {
+  padding: 10px;
+  background-color: #F9BA0C;
+  margin-bottom: 3px;
+  color: white;
+  border-radius: 50%;
+}
+
+.contact-item .fa {
+  font-size: 1.7em;
+}
+
+.contact-item .title {
+  width: 80%;
+  width: calc(100% - 55px);
+  font-size: 1.5em;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.contact-item .description {
+  width: 80%;
+  width: calc(100% - 55px);
+  font-size: 1.2em;
+  opacity: 0.7;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*******************************************
+SKILLS - KNOWLEDGES
+*******************************************/
+
+.item-skills {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.percent {
+  color: #F9BA0C;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.progress {
+  height: 5px;
+  margin-bottom: 0;
+}
+
+.progress .progress-bar {
+  background-color: #F9BA0C;
+  box-shadow: none;
+}
+
+/*******************************************
+LANGUAGES
+*******************************************/
+
+#language-skills {
+  margin-top: 2rem;
+}
+
+.fill {
+  color: #F9BA0C;
+}
+
+#language-skills .skill{
+  font-size: 1.3em;
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*******************************************
+MEDIA
+*******************************************/
+
+@media (max-width: 991px) {
+  ul.timeline > li h4 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  #my-data {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  #my-data #name {
+    font-size: 1.7em;
+  }
+  
+  #my-data #profession {
+    font-size: 1.4em;
+  }
+}
