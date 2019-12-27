@@ -308,4 +308,12 @@ MEDIA
   #my-data #profession {
     font-size: 1.4em;
   }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  ul.timeline .timeline-year {
+    font-size: 13px;
+  }
 }
