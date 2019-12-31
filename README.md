@@ -1,6 +1,4 @@
-# curriculum-vitae
-
-Curriculum vitae
+# CV - Personal site
 
 ## Author
 
