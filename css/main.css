@@ -193,7 +193,43 @@ EXPERIENCES
   font-size: 1.6em;
   font-weight: bold;
 }
+
 .job .description {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+/*******************************************
+PERSONAL PROJECTS
+*******************************************/
+
+.project {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ededed;
+}
+
+.project:last-child {
+  border: 0;
+}
+
+.project .name {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #F9BA0C;
+}
+
+.project .language {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.project .link {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.project .description {
   font-size: 1.2em;
   line-height: 1.5em;
 }
