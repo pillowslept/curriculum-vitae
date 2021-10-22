@@ -18,8 +18,8 @@ body {
   font-family: 'Open Sans', Arial, Tahoma;
   font-weight: 400;
   font-size: 1em;
-  color: #A5A6A8;
-  background: #ededed;
+  color: #151515;
+  background: #F5DFCB;
 }
 /*******************************************
 CONTAINER
@@ -42,7 +42,7 @@ PHOTO (AVATAR)
   border-radius: 20%;
   overflow: hidden;
   padding: 5px;
-  background: #ededed;
+  background: #F5DFCB;
   display: inline-block;
 }
 
@@ -63,7 +63,7 @@ MY INFORMATION
 #my-data #name {
   font-size: 2.5em;
   font-weight: bold;
-  color: #F9BA0C;
+  color: #01566D;
   text-transform: uppercase;
 }
 
@@ -82,7 +82,7 @@ COMMON
   margin-right: 5px;
   margin-bottom: 5px;
   padding: 5px;
-  background-color: #F9BA0C;
+  background-color: #01566D;
   border-radius: 5px;
   position: relative;
   font-size: 1.2em;
@@ -108,7 +108,7 @@ COMMON
 }
 
 .section-container h2, h3, h4 {
-  color: #F9BA0C;
+  color: #01566D;
 }
 
 .section-container p {
@@ -127,7 +127,7 @@ ul.timeline {
 
 ul.timeline:before {
   content: ' ';
-  background: #F9BA0C;
+  background: #01566D;
   display: inline-block;
   position: absolute;
   left: 28px;
@@ -147,7 +147,7 @@ ul.timeline > li:before {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #F9BA0C;
+  border: 3px solid #01566D;
   left: 20px;
   width: 20px;
   height: 20px;
@@ -177,7 +177,7 @@ EXPERIENCES
 .job .since {
   font-size: 1.6em;
   font-weight: bold;
-  color: #F9BA0C;
+  color: #01566D;
 }
 
 .job .company {
@@ -216,7 +216,7 @@ PERSONAL PROJECTS
 .project .name {
   font-size: 1.6em;
   font-weight: bold;
-  color: #F9BA0C;
+  color: #01566D;
 }
 
 .project .language {
@@ -245,7 +245,7 @@ CONTACT
 
 .contact-item .icon {
   padding: 10px;
-  background-color: #F9BA0C;
+  background-color: #01566D;
   margin-bottom: 3px;
   color: white;
   border-radius: 50%;
@@ -286,7 +286,7 @@ SKILLS - KNOWLEDGES
 }
 
 .percent {
-  color: #F9BA0C;
+  color: #01566D;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -297,7 +297,7 @@ SKILLS - KNOWLEDGES
 }
 
 .progress .progress-bar {
-  background-color: #F9BA0C;
+  background-color: #01566D;
   box-shadow: none;
 }
 
@@ -310,7 +310,11 @@ LANGUAGES
 }
 
 .fill {
-  color: #F9BA0C;
+  color: #01566D;
+}
+
+.gray {
+  color: #A5A6A8;
 }
 
 #language-skills .skill{
