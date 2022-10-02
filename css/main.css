@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   font-size: 1em;
   color: #151515;
-  background: #F5DFCB;
+  background: #ECECEC;
 }
 /*******************************************
 CONTAINER
@@ -42,7 +42,7 @@ PHOTO (AVATAR)
   border-radius: 20%;
   overflow: hidden;
   padding: 5px;
-  background: #F5DFCB;
+  background: #ECECEC;
   display: inline-block;
 }
 
