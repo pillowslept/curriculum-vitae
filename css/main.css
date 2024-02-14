@@ -271,6 +271,8 @@ CONTACT
   overflow: hidden !important;
   text-overflow: ellipsis;
   white-space: nowrap;
+  display: flex;
+  flex-direction: column;
 }
 
 /*******************************************
